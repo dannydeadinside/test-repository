@@ -2,7 +2,10 @@
   "name": "test-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dannydeadinside.github.io/test-repository/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannydeadinside/test-repository.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -40,6 +43,10 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.50.0"
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "eslint": "^8.50.0",
+    "semantic-release": "^22.0.12"
   }
 }
