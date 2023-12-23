@@ -1,4 +1,4 @@
-name: Run Unit Tests
+ame: Run Unit Tests
 on:
   pull_request:
     branches: [main]
